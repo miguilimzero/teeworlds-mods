@@ -29,7 +29,7 @@ This repository contains scripts to build server binaries for as many known mods
 
 ## Binary Mods
 
-For these mods, there are binaries that were published by their creators without the source. you can download them directly from the repository.
+For these mods, there are binaries that were published by their creators without the source. You can download them directly from this repository.
 
 List of binary mods in Teeworlds 0.6.x:
 
