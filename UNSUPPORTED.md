@@ -15,6 +15,8 @@ List of unsupported mods in Teeworlds 0.6.x:
 - MineTee (https://github.com/H-M-H/MineTee) (https://gitlab.com/Tardo/MineTee) (https://www.teeworlds.com/forum/viewtopic.php?id=11534)
 - DDNet PvP (https://github.com/TeeworldsCN/ddnet-pvp)
 
+- Nodes (https://github.com/TsFreddie/New-Nodes) (https://www.teeworlds.com/forum/viewtopic.php?id=10400)
+
 - EXPRemake (https://github.com/GutZuFusss/EXPRemake/tree/0.6exp) (https://www.teeworlds.com/forum/viewtopic.php?id=11845)
 - War3 (https://github.com/teeworldsmods/teeworlds-war3) (https://www.teeworlds.com/forum/viewtopic.php?id=3331)
 - TournamentDM (https://github.com/H-M-H/TournamentDM/tree/0.6) (https://www.teeworlds.com/forum/viewtopic.php?id=11234)
@@ -45,4 +47,6 @@ List of unsupported mods in Teeworlds 0.7.x:
 
 - InQ (https://github.com/BotoX/teeworlds/tree/inQ-0.7) (https://www.teeworlds.com/forum/viewtopic.php?id=7138)
 - EXPRemake (https://github.com/GutZuFusss/EXPRemake) (https://www.teeworlds.com/forum/viewtopic.php?id=11692)
-- Teeworlds+ (https://github.com/Teetime/teeworlds/tree/tw-plus)
+- Teeworlds+/Instagib (https://github.com/Teetime/teeworlds/tree/tw-plus)
+
+- Nodes (https://github.com/teeworldsnetwork/nodes) (https://nodes.teeworlds.dev/servers)

@@ -33,7 +33,7 @@ For these mods, there are binaries that were published by their creators without
 
 List of binary mods in Teeworlds 0.6.x:
 
-- Battlefield 0.6.x
+- Battlefield 0.6.x (https://www.teeworlds.com/forum/viewtopic.php?id=9178)
 - zChaos 0.6.x (https://www.teeworlds.com/forum/viewtopic.php?id=9682)
 
 List of binary mods in Teeworlds 0.7.x:
