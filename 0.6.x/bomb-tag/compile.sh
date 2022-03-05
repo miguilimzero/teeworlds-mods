@@ -12,6 +12,6 @@ chmod 764 bam
 ./bam server_release
 
 # Move Binary & Delete Repository
-mv teeworlds_srv ../Bomb-Server
+mv teeworlds_srv ../BombTag-Server
 cd ..
 rm -rf bomb
