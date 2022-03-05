@@ -12,10 +12,7 @@ List of unsupported mods in Teeworlds 0.6.x:
 - UHCity (https://github.com/EMokro/uhcity) (https://www.teeworlds.com/forum/viewtopic.php?id=20733)
 - Vannila64 (https://github.com/Neox76/Vanilla64/tree/vanilla64) (https://www.teeworlds.com/forum/viewtopic.php?id=12036)
 - Juggernaut (https://github.com/andreasgan/Juggernaut) (https://www.teeworlds.com/forum/viewtopic.php?id=11860)
-- MineTee (https://github.com/H-M-H/MineTee) (https://gitlab.com/Tardo/MineTee) (https://www.teeworlds.com/forum/viewtopic.php?id=11534)
 - DDNet PvP (https://github.com/TeeworldsCN/ddnet-pvp)
-
-- Nodes (https://github.com/TsFreddie/New-Nodes) (https://www.teeworlds.com/forum/viewtopic.php?id=10400)
 
 - EXPRemake (https://github.com/GutZuFusss/EXPRemake/tree/0.6exp) (https://www.teeworlds.com/forum/viewtopic.php?id=11845)
 - War3 (https://github.com/teeworldsmods/teeworlds-war3) (https://www.teeworlds.com/forum/viewtopic.php?id=3331)
@@ -24,9 +21,16 @@ List of unsupported mods in Teeworlds 0.6.x:
 - tCatch (https://gitlab.com/uDDRace/tCatch) (https://www.teeworlds.com/forum/viewtopic.php?id=11618)
 - Flagdrag (https://github.com/fstd/teeworlds/tree/flagdrag) (https://www.teeworlds.com/forum/viewtopic.php?id=11272)
 - King Of The Hill (https://github.com/fstd/teeworlds/tree/koth) (https://www.teeworlds.com/forum/viewtopic.php?id=11273)
-- Strike (https://github.com/H-M-H/teeworlds_streak) (https://www.teeworlds.com/forum/viewtopic.php?id=11046)
+- Streak (https://github.com/H-M-H/teeworlds_streak) (https://www.teeworlds.com/forum/viewtopic.php?id=11046)
+- Flagdrag (https://github.com/fstd/teeworlds/tree/flagdrag) (https://www.teeworlds.com/forum/viewtopic.php?id=11272)
+- DummyCapture (https://github.com/Pikotee/teeworlds/tree/dc) (https://www.teeworlds.com/forum/viewtopic.php?id=10289)
+- Animal (https://github.com/jxsl13/Animal_mod)
 
 - Shaft (https://github.com/949f45ac/teeworlds/tree/0.6-mod) (https://www.teeworlds.com/forum/viewtopic.php?pid=114869#p114869)
+
+- Nodes (https://github.com/TsFreddie/New-Nodes) (https://www.teeworlds.com/forum/viewtopic.php?id=10400)
+- MineTee (https://github.com/H-M-H/MineTee) (https://gitlab.com/Tardo/MineTee) (https://www.teeworlds.com/forum/viewtopic.php?id=11534)
+- CTDM (https://github.com/949f45ac/teeworlds/tree/0.6-mod) (https://www.teeworlds.com/forum/viewtopic.php?pid=114869#p114869)
 
 - TeeTime () (https://www.teeworlds.com/forum/viewtopic.php?id=12111)
 - TeeDefence () (https://www.teeworlds.com/forum/viewtopic.php?id=11274)
@@ -47,6 +51,6 @@ List of unsupported mods in Teeworlds 0.7.x:
 
 - InQ (https://github.com/BotoX/teeworlds/tree/inQ-0.7) (https://www.teeworlds.com/forum/viewtopic.php?id=7138)
 - EXPRemake (https://github.com/GutZuFusss/EXPRemake) (https://www.teeworlds.com/forum/viewtopic.php?id=11692)
-- Teeworlds+/Instagib (https://github.com/Teetime/teeworlds/tree/tw-plus)
+- Teeworlds+/Instagib (https://github.com/Teetime/teeworlds/tree/tw-plus) (https://www.teeworlds.com/forum/viewtopic.php?id=6267)
 
 - Nodes (https://github.com/teeworldsnetwork/nodes) (https://nodes.teeworlds.dev/servers)

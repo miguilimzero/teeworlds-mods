@@ -18,3 +18,9 @@
 
 - Medic (https://www.teeworlds.com/forum/viewtopic.php?id=11400)
 - DummyCapture (https://www.teeworlds.com/forum/viewtopic.php?id=10289&p=2)
+
+## Known Profiles
+
+- https://github.com/TeeworldsCN
+- https://github.com/teeworldsCNFun
+- https://github.com/teeworldsmods
