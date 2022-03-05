@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Clone Repository
-git clone https://github.com/InfectionDust/teeworlds-infclassr -b staging
+git clone https://github.com/InfectionDust/teeworlds-infclassr
 cd teeworlds-infclassr
 
 # Compile Mod
