@@ -23,22 +23,18 @@ This repository contains scripts to build server binaries and binaries for mods 
 - xPanic (https://github.com/teeframe/xpanic)
 - zCatch (https://github.com/ddnet/zcatch)
 
-**Maintained** - List of supported mods in Teeworlds 0.7.x:
-
-**Unmaintained** - List of supported mods in Teeworlds 0.7.x:
-
 ## Binary Mods
 
 For these mods, there are binaries that were published by their creators without the source. You can download them directly from this repository.
 
 List of binary mods in Teeworlds 0.6.x:
 
-- Battlefield 0.6.x (https://www.teeworlds.com/forum/viewtopic.php?id=9178)
-- zChaos 0.6.x (https://www.teeworlds.com/forum/viewtopic.php?id=9682)
+- Battlefield (https://www.teeworlds.com/forum/viewtopic.php?id=9178)
+- zChaos (https://www.teeworlds.com/forum/viewtopic.php?id=9682)
 
 List of binary mods in Teeworlds 0.7.x:
 
-- LumLvl 0.7.x (https://www.teeworlds.com/forum/viewtopic.php?id=12849)
+- LumLvl (https://www.teeworlds.com/forum/viewtopic.php?id=12849)
 
 ## Installing Dependencies
 
@@ -51,7 +47,3 @@ wget https://raw.githubusercontent.com/teeframe/mods-compiler/main/resources/def
 ## Compiling Mods (Teeworlds 0.6.x)
 
 Now you just need to choose the script corresponding to the 0.6.x mod you want to compile:
-
-## Compiling Mods (Teeworlds 0.7.x)
-
-Now you just need to choose the script corresponding to the 0.7.x mod you want to compile:
