@@ -41,7 +41,7 @@ List of binary mods in Teeworlds 0.7.x:
 First you must install the necessary dependencies on your system. You can run this script to install the necessary dependencies for compiling the mods (Scripts are made assuming you are running **Ubuntu 20.04**).
 
 ```
-wget https://raw.githubusercontent.com/teeframe/mods-compiler/main/resources/default-dependencies.sh  -O - | sh
+wget https://raw.githubusercontent.com/teeframe/mods-repository/main/resources/default-dependencies.sh  -O - | sh
 ```
 
 ## Compiling Mods (Teeworlds 0.6.x)

@@ -5,7 +5,7 @@ git clone https://github.com/teeframe/killing-floor
 cd killing-floor
 
 # Download Bam Binary
-wget https://raw.githubusercontent.com/teeframe/mods-compiler/main/resources/bam
+wget https://raw.githubusercontent.com/teeframe/mods-repository/main/resources/bam
 chmod 764 bam
 
 # Compile Mod
