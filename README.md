@@ -1,6 +1,6 @@
 # Mods Repository
 
-This repository contains scripts to build server binaries and binaries for mods that source were never published for as many known mods of Teeworlds ecosystem. The repository is also responsible for the map listing for unmaintained mods.
+This repository contains scripts to build server binaries and binaries for mods that source were never published for as many known mods of Teeworlds ecosystem. The repository is also responsible for the storage of map files from unmaintained mods.
 
 ## Supported Mods
 
