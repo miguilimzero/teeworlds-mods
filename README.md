@@ -31,10 +31,13 @@ This repository contains scripts to build server binaries for as many known mods
 
 For these mods, there are binaries that were published by their creators without the source. you can download them directly from the repository.
 
-List of binary mods:
+List of binary mods in Teeworlds 0.6.x:
 
 - Battlefield 0.6.x
 - zChaos 0.6.x (https://www.teeworlds.com/forum/viewtopic.php?id=9682)
+
+List of binary mods in Teeworlds 0.7.x:
+
 - LumLvl 0.7.x (https://www.teeworlds.com/forum/viewtopic.php?id=12849)
 
 ## Installing Dependencies
