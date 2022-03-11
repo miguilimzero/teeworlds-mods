@@ -6,27 +6,31 @@ This repository contains scripts to build server binaries and binaries for mods 
 
 **Maintained** - List of supported mods in Teeworlds 0.6.x:
 
-- DDNet (https://github.com/ddnet/ddnet)
-- InfClass (https://github.com/InfectionDust/teeworlds-infclassr)
-- MMOTee (https://github.com/kurosio/Teeworlds-Mmotee-Old)
-- ZombPanic (https://github.com/srdante/zomb-panic)
+- DDNet - [Source](https://github.com/ddnet/ddnet)
+- InfClass - [Source](https://github.com/InfectionDust/teeworlds-infclassr)
+- MMOTee - [Source](https://github.com/kurosio/Teeworlds-Mmotee-Old)
+- ZombPanic - [Source](https://github.com/srdante/zomb-panic)
 
 **Unmaintained** - List of supported mods in Teeworlds 0.6.x:
 
-- Bomb Tag (https://github.com/unique-clan/bomb)
-- Flagball (https://github.com/teeframe/flagball)
-- Football (https://github.com/unique-clan/football)
-- HMH-Monster (https://github.com/teeframe/hmh-monster)
-- Hunter (https://github.com/yangfl/teeworlds-hunter)
-- Killing Floor (https://github.com/Siile/KillingFloor)
-- TeeSmash (https://github.com/timazuki/TeeSmash)
-- TeeWare (https://github.com/headshot2017/teeware-mod)
-- xPanic (https://github.com/teeframe/xpanic)
-- zCatch (https://github.com/ddnet/zcatch)
+- Bomb Tag - [Source](https://github.com/unique-clan/bomb)
+- Flagball - [Source](https://github.com/teeframe/flagball)
+- Football - [Source](https://github.com/unique-clan/football)
+- HMH-Monster - [Source](https://github.com/teeframe/hmh-monster)
+- Hunter - [Source](https://github.com/yangfl/teeworlds-hunter)
+- Killing Floor - [Source](https://github.com/Siile/KillingFloor)
+- TeeSmash - [Source](https://github.com/timazuki/TeeSmash)
+- TeeWare - [Source](https://github.com/headshot2017/teeware-mod)
+- xPanic - [Source](https://github.com/teeframe/xpanic)
+- zCatch - [Source](https://github.com/ddnet/zcatch)
 
 **Maintained** - List of supported mods in Teeworlds 0.7.x:
 
-- MMOTee (https://github.com/MrCosmo666/Teeworlds-MRPG)
+- MMOTee - [Source](https://github.com/MrCosmo666/Teeworlds-MRPG)
+
+**Unmaintained** - List of supported mods in Teeworlds 0.7.x:
+
+- Nodes - [Source](https://github.com/teeworldsnetwork/nodes) | [Website](https://nodes.teeworlds.dev/) ***Requires Custom Client**
 
 ## Binary Mods
 
