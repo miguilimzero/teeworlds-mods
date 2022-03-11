@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Clone Repository
-git clone https://github.com/srdante/zomb-panic --recurse-submodules
-cd zomb-panic
+git clone https://github.com/teeframe/zombpanic --recurse-submodules
+cd zombpanic
 
 # Compile Mod
 mkdir build && cd build
@@ -12,4 +12,4 @@ make -j$(nproc)
 # Move Binary & Delete Repository
 mv DDNet-Server ../../ZombPanic-Server
 cd ../..
-rm -rf ddnet
+rm -rf zombpanic

@@ -9,7 +9,7 @@ This repository contains scripts to build server binaries and binaries for mods 
 - DDNet - [Source](https://github.com/ddnet/ddnet)
 - InfClass - [Source](https://github.com/InfectionDust/teeworlds-infclassr)
 - MMOTee - [Source](https://github.com/kurosio/Teeworlds-Mmotee-Old)
-- ZombPanic - [Source](https://github.com/srdante/zomb-panic)
+- ZombPanic - [Source](https://github.com/teeframe/zombpanic)
 
 **Unmaintained** - List of supported mods in Teeworlds 0.6.x:
 
