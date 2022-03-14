@@ -54,4 +54,16 @@ wget https://raw.githubusercontent.com/teeframe/mods-repository/main/resources/d
 
 ## Compiling Mods (Teeworlds 0.6.x)
 
-Now you just need to choose the script corresponding to the 0.6.x mod you want to compile:
+Now you just need to execute the compile script for your desired mod:
+
+```
+wget https://raw.githubusercontent.com/teeframe/mods-repository/main/0.6.x/MOD_FOLDER_NAME/compile.sh  -O - | sh
+```
+
+## Compiling Mods (Teeworlds 0.7.x)
+
+Now you just need to execute the compile script for your desired mod:
+
+```
+wget https://raw.githubusercontent.com/teeframe/mods-repository/main/0.7.x/MOD_FOLDER_NAME/compile.sh  -O - | sh
+```
