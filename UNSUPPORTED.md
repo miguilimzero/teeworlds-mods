@@ -2,6 +2,8 @@
 
 List of unsupported mods in Teeworlds 0.6.x:
 
+- xPanic (https://github.com/gerdoe-jr/xpanic-1) (Replaced by zombpanic)
+
 - Alien (https://github.com/teeworldsmods/teeworlds-alien) (https://www.teeworlds.com/forum/viewtopic.php?id=9099)
 - Ball (https://github.com/scosu/teeworlds)
 - CStrike (https://github.com/ST-Chara/teeworlds-CStrike) (https://www.teeworlds.com/forum/viewtopic.php?id=11101)
