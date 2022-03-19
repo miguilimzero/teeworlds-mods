@@ -25,7 +25,7 @@ This repository contains scripts to build server binaries and binaries for mods 
 
 **Maintained** - List of supported mods in Teeworlds 0.7.x:
 
-- MMOTee - [Source](https://github.com/MrCosmo666/Teeworlds-MRPG)
+- MMOTee - [Source](https://github.com/MrCosmo666/Teeworlds-MRPG) ***Requires Custom Client**
 
 **Unmaintained** - List of supported mods in Teeworlds 0.7.x:
 
