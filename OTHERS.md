@@ -2,6 +2,8 @@
 ## Special Mods
 
 - NetGui (https://github.com/Henningstone/tw_netgui/) (https://www.teeworlds.com/forum/viewtopic.php?id=11702)
+- TeeSharp (https://github.com/Matodor/TeeSharp)
+- DDnet JS (https://github.com/eeeee/ddnet) (http://teewebs.net/)
 
 ## Lost Mods
 
