@@ -7,7 +7,7 @@ This repository contains scripts to build server binaries and binaries for mods 
 **Maintained** - List of supported mods in Teeworlds 0.6.x:
 
 - DDNet - [Source](https://github.com/ddnet/ddnet) | [Website](https://ddnet.tw/)
-- InfClass - [Source](https://github.com/InfectionDust/teeworlds-infclassr)
+- InfClass - [Source](https://github.com/InfectionDust/teeworlds-infclassr) | [Website](https://infclass.github.io/)
 - MMOTee - [Source](https://github.com/kurosio/Teeworlds-Mmotee-Old)
 - ZombPanic - [Source](https://github.com/teeframe/zombpanic)
 
@@ -25,7 +25,7 @@ This repository contains scripts to build server binaries and binaries for mods 
 
 **Maintained** - List of supported mods in Teeworlds 0.7.x:
 
-- MMOTee - [Source](https://github.com/MrCosmo666/Teeworlds-MRPG) ***Requires Custom Client**
+- MMOTee - [Source](https://github.com/MrCosmo666/Teeworlds-MRPG) ***Have Custom Client, But the normal 0.7 Client can also play**
 
 **Unmaintained** - List of supported mods in Teeworlds 0.7.x:
 
