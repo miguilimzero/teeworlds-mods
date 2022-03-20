@@ -38,6 +38,7 @@ List of unsupported mods in Teeworlds 0.6.x:
 - TeeDefence () (https://www.teeworlds.com/forum/viewtopic.php?id=11274)
 
 - Infection () (https://www.teeworlds.com/forum/viewtopic.php?id=11400)
+- InfNext (https://github.com/bonobo-craft/ddnet-infclass) (https://www.teeworlds.com/forum/viewtopic.php?id=16671)
 
 List of unsupported mods in Teeworlds 0.7.x:
 
