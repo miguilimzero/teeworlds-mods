@@ -4,24 +4,24 @@ This repository contains scripts to build server binaries and binaries for mods 
 
 ## Supported Mods
 
-| Name | Website| Source | Forum Post | State | Version  | Client |
+| Name | Website| Source | Forum Post | Maintained | Version  | Client |
 |---------|---------|---------|---------|---------|---------|---------|
-| **DDNet** |  [Website](https://ddnet.tw/) | [Source](https://github.com/ddnet/ddnet) |  ------------------- | Maintained | 0.6.x |***Vanilla Client** |
-| **InfClass** | -------------------  | [Source](https://github.com/InfectionDust/teeworlds-infclassr) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12532) | Maintained | 0.6.x |***Vanilla Client** |
-| **MMOTee** |  ------------------- | [Source](https://github.com/kurosio/Teeworlds-Mmotee-Old) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12612) | Maintained | 0.6.x |***Vanilla Client** |
-| **ZombPanic** | ------------------- | [Source](https://github.com/teeframe/zombpanic) |  ------------------- |  Maintained | 0.6.x |***Vanilla Client** |
-| **Bomb Tag** | ------------------- | [Source](https://github.com/unique-clan/bomb) | ------------------- | Unmaintained | 0.6.x |***Vanilla Client** |
-| **Flagball** | ------------------- | [Source](https://github.com/teeframe/flagball) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12899) | Unmaintained | 0.6.x |***Vanilla Client** |
-| **Football** | ------------------- | [Source](https://github.com/unique-clan/football) | ------------------- | Unmaintained | 0.6.x |***Vanilla Client** |
-| **HMH-Monster** | ------------------- | [Source](https://github.com/teeframe/hmh-monster) | ------------------- | Unmaintained | 0.6.x |***Vanilla Client** |
-| **Hunter** | ------------------- | [Source](https://github.com/yangfl/teeworlds-hunter) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=10408) | Unmaintained | 0.6.x |***Vanilla Client** |
-| **Killing Floor** | ------------------- | [Source](https://github.com/Siile/KillingFloor) | ------------------- | Unmaintained | 0.6.x |***Vanilla Client** |
-| **TeeSmash** | ------------------- | [Source](https://github.com/timazuki/TeeSmash) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=11878) | Unmaintained | 0.6.x |***Vanilla Client** |
-| **TeeWare** | ------------------- | [Source](https://github.com/headshot2017/teeware-mod) | ------------------- | Unmaintained | 0.6.x |***Vanilla Client** |
-| **zCatch** | ------------------- | [Source](https://github.com/ddnet/zcatch) | ------------------- | Unmaintained | 0.6.x |***Vanilla Client** |
-| **MMOTee** | ------------------- | [Source](https://github.com/MrCosmo666/Teeworlds-MRPG) | ------------------- | Maintained | 0.7.x |***Custom Client** |
-| **CStrike** | ------------------- | [Source](https://github.com/ST-Chara/teeworlds-CStrike) | ------------------- | Unmaintained | 0.7.x |***Vanilla Client** |
-| **Nodes** | [Website](https://nodes.teeworlds.dev/) |[Source](https://github.com/teeworldsnetwork/nodes) | ------------------- | Unmaintained | 0.7.x |***Custom Client** |
+| **DDNet** |  [Website](https://ddnet.tw/) | [Source](https://github.com/ddnet/ddnet) |  ------------------- | ✔ | 0.6.x |***Vanilla Client** |
+| **InfClass** | -------------------  | [Source](https://github.com/InfectionDust/teeworlds-infclassr) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12532) | ✔ | 0.6.x |***Vanilla Client** |
+| **MMOTee** |  ------------------- | [Source](https://github.com/kurosio/Teeworlds-Mmotee-Old) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12612) | ✔ | 0.6.x |***Vanilla Client** |
+| **ZombPanic** | ------------------- | [Source](https://github.com/teeframe/zombpanic) |  ------------------- |  ✔ | 0.6.x |***Vanilla Client** |
+| **Bomb Tag** | ------------------- | [Source](https://github.com/unique-clan/bomb) | ------------------- | ✕ | 0.6.x |***Vanilla Client** |
+| **Flagball** | ------------------- | [Source](https://github.com/teeframe/flagball) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12899) | ✕ | 0.6.x |***Vanilla Client** |
+| **Football** | ------------------- | [Source](https://github.com/unique-clan/football) | ------------------- | ✕ | 0.6.x |***Vanilla Client** |
+| **HMH-Monster** | ------------------- | [Source](https://github.com/teeframe/hmh-monster) | ------------------- | ✕ | 0.6.x |***Vanilla Client** |
+| **Hunter** | ------------------- | [Source](https://github.com/yangfl/teeworlds-hunter) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=10408) | ✕ | 0.6.x |***Vanilla Client** |
+| **Killing Floor** | ------------------- | [Source](https://github.com/Siile/KillingFloor) | ------------------- | ✕ | 0.6.x |***Vanilla Client** |
+| **TeeSmash** | ------------------- | [Source](https://github.com/timazuki/TeeSmash) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=11878) | ✕ | 0.6.x |***Vanilla Client** |
+| **TeeWare** | ------------------- | [Source](https://github.com/headshot2017/teeware-mod) | ------------------- | ✕ | 0.6.x |***Vanilla Client** |
+| **zCatch** | ------------------- | [Source](https://github.com/ddnet/zcatch) | ------------------- | ✕ | 0.6.x |***Vanilla Client** |
+| **CStrike** | ------------------- | [Source](https://github.com/ST-Chara/teeworlds-CStrike) | ------------------- | ✕ | 0.7.x |***Vanilla Client** |
+| **MMOTee** | ------------------- | [Source](https://github.com/MrCosmo666/Teeworlds-MRPG) | ------------------- | ✔ | 0.7.x |***Custom Client** |
+| **Nodes** | [Website](https://nodes.teeworlds.dev/) |[Source](https://github.com/teeworldsnetwork/nodes) | ------------------- | ✕ | 0.7.x |***Custom Client** |
 
 
 
@@ -29,11 +29,11 @@ This repository contains scripts to build server binaries and binaries for mods 
 
 For these mods, there are binaries that were published by their creators without the source. You can download them directly from this repository.
 
-| Name | Forum Post | Version |
-|--------|---------|---------|
-| **Battlefield** | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=9178) | 0.6.x |
-| **zChaos** | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=9682) | 0.6.x |
-| **LumLvl** | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12849) | 0.7.x |
+| Name | Website| Source | Forum Post | Maintained | Version  | Client |
+|---------|---------|---------|---------|---------|---------|---------|
+| **Battlefield** | ------------------- | ------------------- | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=9178) | ✕ | 0.6.x |***Custom Client** | 
+| **zChaos** | ------------------- | ------------------- | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=9682) | ✕ | 0.6.x |***Custom Client** | 
+| **LumLvl** | ------------------- | ------------------- |[Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12849) | ✕ | 0.7.x |***Custom Client** | 
 
 ## Installing Dependencies
 
