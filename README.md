@@ -1,4 +1,4 @@
-# Mods Repository
+# Teeworlds Mods
 
 This repository contains scripts to build server binaries and binaries for mods that source were never published for as many known mods of Teeworlds ecosystem. The repository is also responsible for the storage of map files from unmaintained mods.
 
