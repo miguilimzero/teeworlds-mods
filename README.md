@@ -20,6 +20,7 @@ This repository contains scripts to build server binaries and binaries for mods 
 | **TeeWare** | ------------------- | [Source](https://github.com/headshot2017/teeware-mod) | ------------------- | Unmaintained | 0.6.x |***Vanilla Client** |
 | **zCatch** | ------------------- | [Source](https://github.com/ddnet/zcatch) | ------------------- | Unmaintained | 0.6.x |***Vanilla Client** |
 | **MMOTee** | ------------------- | [Source](https://github.com/MrCosmo666/Teeworlds-MRPG) | ------------------- | Maintained | 0.7.x |***Custom Client** |
+| **CStrike** | ------------------- | [Source](https://github.com/ST-Chara/teeworlds-CStrike) | ------------------- | Unmaintained | 0.7.x |***Vanilla Client** |
 | **Nodes** | [Website](https://nodes.teeworlds.dev/) |[Source](https://github.com/teeworldsnetwork/nodes) | ------------------- | Unmaintained | 0.7.x |***Custom Client** |
 
 
