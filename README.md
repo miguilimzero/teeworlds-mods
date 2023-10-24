@@ -4,45 +4,36 @@ This repository contains scripts to build server binaries and binaries for mods 
 
 ## Supported Mods
 
-**Maintained** - List of supported mods in Teeworlds 0.6.x:
+| Name | Website| Source | Forum Post | Maintained | Version  | Client |
+|---------|---------|---------|---------|---------|---------|---------|
+| **DDNet** |  [Website](https://ddnet.tw/) | [Source](https://github.com/ddnet/ddnet) |  ------------------- | ✔ | 0.6.x |
+| **InfClass** | -------------------  | [Source](https://github.com/InfectionDust/teeworlds-infclassr) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12532) | ✔ | 0.6.x |
+| **MMOTee** |  ------------------- | [Source](https://github.com/kurosio/Teeworlds-Mmotee-Old) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12612) | ✔ | 0.6.x |
+| **ZombPanic** | ------------------- | [Source](https://github.com/teeframe/zombpanic) |  ------------------- | ✔ | 0.6.x |
+| **Bomb Tag** | ------------------- | [Source](https://github.com/unique-clan/bomb) | ------------------- | ✕ | 0.6.x |
+| **Flagball** | ------------------- | [Source](https://github.com/teeframe/flagball) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12899) | ✕ | 0.6.x |
+| **Football** | ------------------- | [Source](https://github.com/unique-clan/football) | ------------------- | ✕ | 0.6.x |
+| **HMH-Monster** | ------------------- | [Source](https://github.com/teeframe/hmh-monster) | ------------------- | ✕ | 0.6.x |
+| **Hunter** | ------------------- | [Source](https://github.com/yangfl/teeworlds-hunter) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=10408) | ✕ | 0.6.x |
+| **Killing Floor** | ------------------- | [Source](https://github.com/Siile/KillingFloor) | ------------------- | ✕ | 0.6.x |
+| **TeeSmash** | ------------------- | [Source](https://github.com/timazuki/TeeSmash) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=11878) | ✕ | 0.6.x |
+| **TeeWare** | ------------------- | [Source](https://github.com/headshot2017/teeware-mod) | ------------------- | ✕ | 0.6.x |
+| **zCatch** | ------------------- | [Source](https://github.com/ddnet/zcatch) | ------------------- | ✕ | 0.6.x |
+| **CStrike** | ------------------- | [Source](https://github.com/ST-Chara/teeworlds-CStrike) | ------------------- | ✕ | 0.7.x |
+| **MMOTee** | ------------------- | [Source](https://github.com/MrCosmo666/Teeworlds-MRPG) | ------------------- | ✔ | 0.7.x |[Custom Client](https://github.com/MrCosmo666/Teeworlds-MRPG) |
+| **Nodes** | [Website](https://nodes.teeworlds.dev/) |[Source](https://github.com/teeworldsnetwork/nodes) | ------------------- | ✕ | 0.7.x |[Custom Client](https://nodes.teeworlds.dev/downloads)|
 
-- DDNet - [Source](https://github.com/ddnet/ddnet) | [Website](https://ddnet.tw/)
-- InfClass - [Source](https://github.com/InfectionDust/teeworlds-infclassr)
-- MMOTee - [Source](https://github.com/kurosio/Teeworlds-Mmotee-Old)
-- ZombPanic - [Source](https://github.com/teeframe/zombpanic)
-
-**Unmaintained** - List of supported mods in Teeworlds 0.6.x:
-
-- Bomb Tag - [Source](https://github.com/unique-clan/bomb)
-- Flagball - [Source](https://github.com/teeframe/flagball)
-- Football - [Source](https://github.com/unique-clan/football)
-- HMH-Monster - [Source](https://github.com/teeframe/hmh-monster)
-- Hunter - [Source](https://github.com/yangfl/teeworlds-hunter)
-- Killing Floor - [Source](https://github.com/Siile/KillingFloor)
-- TeeSmash - [Source](https://github.com/timazuki/TeeSmash)
-- TeeWare - [Source](https://github.com/headshot2017/teeware-mod)
-- zCatch - [Source](https://github.com/ddnet/zcatch)
-
-**Maintained** - List of supported mods in Teeworlds 0.7.x:
-
-- MMOTee - [Source](https://github.com/MrCosmo666/Teeworlds-MRPG) ***Requires Custom Client**
-
-**Unmaintained** - List of supported mods in Teeworlds 0.7.x:
-
-- Nodes - [Source](https://github.com/teeworldsnetwork/nodes) | [Website](https://nodes.teeworlds.dev/) ***Requires Custom Client**
+* **The * means the client is optional**
 
 ## Binary Mods
 
 For these mods, there are binaries that were published by their creators without the source. You can download them directly from this repository.
 
-List of binary mods in Teeworlds 0.6.x:
-
-- Battlefield (https://www.teeworlds.com/forum/viewtopic.php?id=9178)
-- zChaos (https://www.teeworlds.com/forum/viewtopic.php?id=9682)
-
-List of binary mods in Teeworlds 0.7.x:
-
-- LumLvl (https://www.teeworlds.com/forum/viewtopic.php?id=12849)
+| Name | Website| Source | Forum Post | Maintained | Version  | Client |
+|---------|---------|---------|---------|---------|---------|---------|
+| **Battlefield** | ------------------- | ------------------- | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=9178) | ✕ | 0.6.x | 
+| **zChaos** | ------------------- | ------------------- | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=9682) | ✕ | 0.6.x |  
+| **LumLvl** | ------------------- | ------------------- |[Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12849) | ✕ | 0.7.x | 
 
 ## Installing Dependencies
 
