@@ -4,53 +4,35 @@ This repository contains scripts to build server binaries and binaries for mods 
 
 ## Supported Mods
 
-| **Maintained** | List of supported mods in Teeworlds 0.6.x |
-| --- | --- |
-| **DDNet** | [Source](https://github.com/ddnet/ddnet) \| [Website](https://ddnet.tw/) |
-| **InfClass** | [Source](https://github.com/InfectionDust/teeworlds-infclassr) |
-| **MMOTee** | [Source](https://github.com/kurosio/Teeworlds-Mmotee-Old) |
-| **ZombPanic** | [Source](https://github.com/teeframe/zombpanic) |
+| Name | Website| Source | Forum Post | State | Version  | Client |
+|---------|---------|---------|---------|---------|---------|---------|
+| **DDNet** |  [Website](https://ddnet.tw/) | [Source](https://github.com/ddnet/ddnet) |  ------------------- | Maintained | 0.6.x |***Vanilla Client** |
+| **InfClass** | -------------------  | [Source](https://github.com/InfectionDust/teeworlds-infclassr) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12532) | Maintained | 0.6.x |***Vanilla Client** |
+| **MMOTee** |  ------------------- | [Source](https://github.com/kurosio/Teeworlds-Mmotee-Old) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12612) | Maintained | 0.6.x |***Vanilla Client** |
+| **ZombPanic** | ------------------- | [Source](https://github.com/teeframe/zombpanic) |  ------------------- |  Maintained | 0.6.x |***Vanilla Client** |
+| **Bomb Tag** | ------------------- | [Source](https://github.com/unique-clan/bomb) | ------------------- | Unmaintained | 0.6.x |***Vanilla Client** |
+| **Flagball** | ------------------- | [Source](https://github.com/teeframe/flagball) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12899) | Unmaintained | 0.6.x |***Vanilla Client** |
+| **Football** | ------------------- | [Source](https://github.com/unique-clan/football) | ------------------- | Unmaintained | 0.6.x |***Vanilla Client** |
+| **HMH-Monster** | ------------------- | [Source](https://github.com/teeframe/hmh-monster) | ------------------- | Unmaintained | 0.6.x |***Vanilla Client** |
+| **Hunter** | ------------------- | [Source](https://github.com/yangfl/teeworlds-hunter) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=10408) | Unmaintained | 0.6.x |***Vanilla Client** |
+| **Killing Floor** | ------------------- | [Source](https://github.com/Siile/KillingFloor) | ------------------- | Unmaintained | 0.6.x |***Vanilla Client** |
+| **TeeSmash** | ------------------- | [Source](https://github.com/timazuki/TeeSmash) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=11878) | Unmaintained | 0.6.x |***Vanilla Client** |
+| **TeeWare** | ------------------- | [Source](https://github.com/headshot2017/teeware-mod) | ------------------- | Unmaintained | 0.6.x |***Vanilla Client** |
+| **zCatch** | ------------------- | [Source](https://github.com/ddnet/zcatch) | ------------------- | Unmaintained | 0.6.x |***Vanilla Client** |
+| **MMOTee** | ------------------- | [Source](https://github.com/MrCosmo666/Teeworlds-MRPG) | ------------------- | Maintained | 0.7.x |***Custom Client** |
+| **Nodes** | [Website](https://nodes.teeworlds.dev/) |[Source](https://github.com/teeworldsnetwork/nodes) | ------------------- | Unmaintained | 0.7.x |***Custom Client** |
 
-***
 
-| **Unmaintained** | List of supported mods in Teeworlds 0.6.x | 
-| --- | --- |
-| **Bomb Tag** | [Source](https://github.com/unique-clan/bomb) |
-| **Flagball** | [Source](https://github.com/teeframe/flagball) |
-| **Football** | [Source](https://github.com/unique-clan/football) |
-| **HMH-Monster** | [Source](https://github.com/teeframe/hmh-monster) |
-| **Hunter** | [Source](https://github.com/yangfl/teeworlds-hunter) |
-| **Killing Floor** | [Source](https://github.com/Siile/KillingFloor) |
-| **TeeSmash** | [Source](https://github.com/timazuki/TeeSmash) |
-| **TeeWare** | [Source](https://github.com/headshot2017/teeware-mod) |
-| **zCatch** | [Source](https://github.com/ddnet/zcatch) |
-
-***
-
-| **Maintained** | List of supported mods in Teeworlds 0.7.x | 
-| --- | --- |
-| **MMOTee** |[Source](https://github.com/MrCosmo666/Teeworlds-MRPG) ***Requires Custom Client** |
-
-***
-
-| **Unmaintained** | List of supported mods in Teeworlds 0.7.x | 
-| --- | --- |
-| **Nodes** | [Source](https://github.com/teeworldsnetwork/nodes) \| [Website](https://nodes.teeworlds.dev/)  ***Requires Custom Client** |
 
 ## Binary Mods
 
 For these mods, there are binaries that were published by their creators without the source. You can download them directly from this repository.
 
-| **Binary Mods** | List of binary mods in Teeworlds 0.6.x | 
-| --- | --- |
-| **Battlefield** | (https://www.teeworlds.com/forum/viewtopic.php?id=9178) |
-| **zChaos** | (https://www.teeworlds.com/forum/viewtopic.php?id=9682) |
-
-***
-
-| **Binary Mods** | List of binary mods in Teeworlds 0.7.x | 
-| --- | --- |
-| **LumLvl** |  (https://www.teeworlds.com/forum/viewtopic.php?id=12849) |
+| Name | Forum Post | Version |
+|--------|---------|---------|
+| **Battlefield** | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=9178) | 0.6.x |
+| **zChaos** | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=9682) | 0.6.x |
+| **LumLvl** | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12849) | 0.7.x |
 
 ## Installing Dependencies
 
