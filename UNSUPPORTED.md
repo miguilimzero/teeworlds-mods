@@ -17,7 +17,6 @@ List of unsupported mods in Teeworlds 0.6.x:
 - DDNet PvP (https://github.com/TeeworldsCN/ddnet-pvp)
 
 - EXPRemake (https://github.com/GutZuFusss/EXPRemake/tree/0.6exp) (https://www.teeworlds.com/forum/viewtopic.php?id=11845)
-- War3 (https://github.com/teeworldsmods/teeworlds-war3) (https://www.teeworlds.com/forum/viewtopic.php?id=3331)
 - TournamentDM (https://github.com/H-M-H/TournamentDM/tree/0.6) (https://www.teeworlds.com/forum/viewtopic.php?id=11234)
 - Survival Ctf (https://github.com/heinrich5991/teeworlds/tree/cft) (https://www.teeworlds.com/forum/viewtopic.php?id=11515)
 - tCatch (https://gitlab.com/uDDRace/tCatch) (https://www.teeworlds.com/forum/viewtopic.php?id=11618)
