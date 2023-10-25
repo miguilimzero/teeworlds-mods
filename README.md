@@ -2,7 +2,7 @@
 
 This repository contains scripts to build server binaries and binaries for mods that source were never published for as many known mods of Teeworlds ecosystem. The repository is also responsible for the storage of map files from unmaintained mods.
 
-## Supported Mods
+## [Supported Mods](#supported-mods)
 
 | Name | Website| Source | Forum Post | Maintained | Version  | Client |
 |---------|---------|---------|---------|---------|---------|---------|
@@ -25,7 +25,7 @@ This repository contains scripts to build server binaries and binaries for mods 
 
 * **The * means the client is optional**
 
-## Binary Mods
+## [Binary Mods](#binary-mods)
 
 For these mods, there are binaries that were published by their creators without the source. You can download them directly from this repository.
 
@@ -35,7 +35,7 @@ For these mods, there are binaries that were published by their creators without
 | **zChaos** | ------------------- | ------------------- | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=9682) | ✕ | 0.6.x |  
 | **LumLvl** | ------------------- | ------------------- |[Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12849) | ✕ | 0.7.x | 
 
-## Installing Dependencies
+## [Installing Dependencies](#installing-dependencies)
 
 First you must install the necessary dependencies on your system. You can run this script to install the necessary dependencies for compiling the mods (Scripts are made assuming you are running **Ubuntu 20.04**).
 
@@ -43,7 +43,7 @@ First you must install the necessary dependencies on your system. You can run th
 wget https://raw.githubusercontent.com/teeframe/mods-repository/main/resources/default-dependencies.sh  -O - | sh
 ```
 
-## Compiling Mods (Teeworlds 0.6.x)
+## [Compiling Mods (Teeworlds 0.6.x)](#compiling-mods-teeworlds-06x)
 
 Now you just need to execute the compile script for your desired mod:
 
@@ -51,7 +51,7 @@ Now you just need to execute the compile script for your desired mod:
 wget https://raw.githubusercontent.com/teeframe/mods-repository/main/0.6.x/MOD_FOLDER_NAME/compile.sh  -O - | sh
 ```
 
-## Compiling Mods (Teeworlds 0.7.x)
+## [Compiling Mods (Teeworlds 0.7.x)](#compiling-mods-teeworlds-07x)
 
 Now you just need to execute the compile script for your desired mod:
 
