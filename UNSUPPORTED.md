@@ -23,7 +23,6 @@ List of unsupported mods in Teeworlds 0.6.x:
 - tCatch (https://gitlab.com/uDDRace/tCatch) (https://www.teeworlds.com/forum/viewtopic.php?id=11618)
 - Flagdrag (https://github.com/fstd/teeworlds/tree/flagdrag) (https://www.teeworlds.com/forum/viewtopic.php?id=11272)
 - King Of The Hill (https://github.com/fstd/teeworlds/tree/koth) (https://www.teeworlds.com/forum/viewtopic.php?id=11273)
-- Streak (https://github.com/H-M-H/teeworlds_streak) (https://www.teeworlds.com/forum/viewtopic.php?id=11046)
 - Flagdrag (https://github.com/fstd/teeworlds/tree/flagdrag) (https://www.teeworlds.com/forum/viewtopic.php?id=11272)
 - DummyCapture (https://github.com/Pikotee/teeworlds/tree/dc) (https://www.teeworlds.com/forum/viewtopic.php?id=10289)
 - Animal (https://github.com/jxsl13/Animal_mod)
