@@ -21,7 +21,7 @@ install_mod() {
         cd "$REPO_DIR/$version/$mod"
         bash compile.sh
         echo "Sucess: The $mod has been instaled!"
-        break
+        exit
     else
         echo "Erro: Somenthing goes off."
     fi
