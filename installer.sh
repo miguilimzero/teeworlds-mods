@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Get directory
 REPO_DIR=$PWD
 
 list_versions() {
@@ -14,7 +13,6 @@ list_mod_per_version() {
     ls -d "$REPO_DIR/$version"/*/
 }
 
-# Função para instalar um mod específico
 install_mod() {
     version=$1
     mod=$2
@@ -29,7 +27,6 @@ install_mod() {
 }
 
 
-# Menu principal
 echo "Welcome to the installer of teeworlds-mods!"
 list_versions
 
@@ -58,6 +55,6 @@ while true; do
             echo "Mod not found. Try again."
         fi
     else
-        echo "Version not found. Try novamente."
+        echo "Version not found. Try again."
     fi
 done
