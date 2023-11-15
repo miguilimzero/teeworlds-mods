@@ -4,7 +4,7 @@ REPO_DIR=$PWD
 
 list_versions() {
     echo "Disponible versions:"
-    ls -d */
+    ls -d */ | grep -vE '0\.6\.x-bin|0\.7\.x-bin|resources'
 }
 
 list_mod_per_version() {
