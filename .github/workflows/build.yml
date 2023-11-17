@@ -1,0 +1,96 @@
+name: Compiling tests
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Teeworlds dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y build-essential libsqlite3-dev libcurl4-openssl-dev
+    
+    ### 0.6.x
+    - name: Build ddnet   
+      run: |
+        cd 0.6.x/ddnet
+        bash compile.sh
+
+    - name: Build bomb-tag
+      run: |
+        cd 0.6.x/bomb-tag
+        bash compile.sh
+
+    - name: Build flagball
+      run: |
+        cd 0.6.x/flagball
+        bash compile.sh
+
+    - name: Build football
+      run: |
+        cd 0.6.x/football
+        bash compile.sh
+
+    - name: Build hmh-monster
+      run: |
+        cd 0.6.x/hmh-monster
+        bash compile.sh
+
+    - name: Build hunter
+      run: |
+        cd 0.6.x/hunter
+        bash compile.sh
+
+    - name: Build infclass
+      run: |
+        cd 0.6.x/infclass
+        bash compile.sh
+
+    - name: Build killing-floor
+      run: |
+        cd 0.6.x/killing-floor
+        bash compile.sh
+
+    - name: Build mmotee 0.6.x
+      run: |
+        cd 0.6.x/mmotee
+        bash compile.sh
+        
+    - name: Build teesmash
+      run: |
+        cd 0.6.x/teesmash
+        bash compile.sh
+
+    - name: Build teeware
+      run: |
+        cd 0.6.x/teeware
+        bash compile.sh
+
+    - name: Build zcatch
+      run: |
+        cd 0.6.x/zcatch
+        bash compile.sh
+
+    - name: Build zombpanic
+      run: |
+        cd 0.6.x/zombpanic
+        bash compile.sh
+
+    ### 0.7.x
+    - name: Build mmotee 0.7.x
+      run: |
+        cd 0.7.x/mmotee
+        bash compile.sh
+
+    - name: Build nodes
+      run: |
+        cd 0.7.x/nodes
+        bash compile.sh
