@@ -1,0 +1,55 @@
+name: Compiling tests
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  install-dependencies:
+    name: Install Dependencies
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Teeworlds dependencies
+        run: |
+          cd resources/
+          bash default-dependencies.sh
+
+  build-06version:
+    needs: install-dependencies
+    name: Build 0.6.x mods
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build 0.6.x Mods
+        run: |
+          for mod_dir in 0.6.x/*; do
+            if [ -d "$mod_dir" ]; then
+              cd "$mod_dir"
+              bash compile.sh
+              cd -
+            fi
+          done
+
+  build-07version:
+    needs: install-dependencies
+    name: Build 0.7.x mods
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build 0.7.x Mods
+        run: |
+          for mod_dir in 0.7.x/*; do
+            if [ -d "$mod_dir" ]; then
+              cd "$mod_dir"
+              bash compile.sh
+              cd -
+            fi
+          done
