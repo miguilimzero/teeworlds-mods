@@ -104,7 +104,6 @@ jobs:
         run: |
           cd 0.7.x/mmotee
           bash compile.sh
-          
       - name: Build nodes
         run: |
           cd 0.7.x/nodes
