@@ -37,7 +37,7 @@ jobs:
           done
 
   build-07version:
-    needs: build-06version
+    needs: install-dependencies
     name: Build 0.7.x mods
     runs-on: ubuntu-latest
     steps:
