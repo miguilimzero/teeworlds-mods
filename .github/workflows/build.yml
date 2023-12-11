@@ -18,38 +18,227 @@ jobs:
           cd resources/
           bash default-dependencies.sh
 
-  build-06version:
+  build-06x_bomb-tag:
+    name: Build bomb-tag
     needs: install-dependencies
-    name: Build 0.6.x mods
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Build 0.6.x Mods
+      - name: Build bomb-tag
         run: |
-          for mod_dir in 0.6.x/*; do
-            if [ -d "$mod_dir" ]; then
-              cd "$mod_dir"
-              bash compile.sh
-              cd -
-            fi
-          done
+          cd "./0.6.x/bomb-tag"
+          bash compile.sh
 
-  build-07version:
+  build-06x_ddnet:
+    name: Build ddnet
     needs: install-dependencies
-    name: Build 0.7.x mods
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Build 0.7.x Mods
+      - name: Build ddnet
         run: |
-          for mod_dir in 0.7.x/*; do
-            if [ -d "$mod_dir" ]; then
-              cd "$mod_dir"
-              bash compile.sh
-              cd -
-            fi
-          done
+          cd "./0.6.x/ddnet"
+          bash compile.sh
+
+  build-06x_flagball:
+    name: Build flagball
+    needs: install-dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build flagball
+        run: |
+          cd "./0.6.x/flagball"
+          bash compile.sh
+
+  build-06x_football:
+    name: Build football
+    needs: install-dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build football
+        run: |
+          cd "./0.6.x/football"
+          bash compile.sh
+
+  build-06x_hmh-monster:
+    name: Build hmh-monster
+    needs: install-dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build hmh-monster
+        run: |
+          cd "./0.6.x/hmh-monster"
+          bash compile.sh
+
+  build-06x_hunter:
+    name: Build hunter
+    needs: install-dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build hunter
+        run: |
+          cd "./0.6.x/hunter"
+          bash compile.sh
+
+  build-06x_infclass:
+    name: Build infclass
+    needs: install-dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build infclass
+        run: |
+          cd "./0.6.x/infclass"
+          bash compile.sh
+
+  build-06x_killing-floor:
+    name: Build killing-floor
+    needs: install-dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build killing-floor
+        run: |
+          cd "./0.6.x/killing-floor"
+          bash compile.sh
+
+  build-06x_mmotee:
+    name: Build mmotee
+    needs: install-dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build mmotee
+        run: |
+          cd "./0.6.x/mmotee"
+          bash compile.sh
+
+  build-06x_streak:
+    name: Build streak
+    needs: install-dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build streak
+        run: |
+          cd "./0.6.x/streak"
+          bash compile.sh
+
+  build-06x_teesmash:
+    name: Build teesmash
+    needs: install-dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build teesmash
+        run: |
+          cd "./0.6.x/teesmash"
+          bash compile.sh
+
+  build-06x_teeware:
+    name: Build teeware
+    needs: install-dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build teeware
+        run: |
+          cd "./0.6.x/teeware"
+          bash compile.sh
+
+  build-06x_zcatch:
+    name: Build zcatch
+    needs: install-dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build zcatch
+        run: |
+          cd "./0.6.x/zcatch"
+          bash compile.sh
+
+  build-06x_zombpanic:
+    name: Build zombpanic
+    needs: install-dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build zombpanic
+        run: |
+          cd "./0.6.x/zombpanic"
+          bash compile.sh
+
+  build-07x_mmotee:
+    name: Build mmotee
+    needs: install-dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build mmotee
+        run: |
+          cd "./0.7.x/mmotee"
+          bash compile.sh
+
+  build-07x_nodes:
+    name: Build nodes
+    needs: install-dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build nodes
+        run: |
+          cd "./0.7.x/nodes"
+          bash compile.sh
+
