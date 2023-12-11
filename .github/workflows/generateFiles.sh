@@ -1,9 +1,7 @@
 #!/bin/bash
 
-# Obtém o diretório do script
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# Volta duas pastas para chegar à raiz do repositório
 REPO_DIR=$(dirname "$(dirname "$SCRIPT_DIR")")
 
 cat <<EOF > build.yml
@@ -29,11 +27,10 @@ jobs:
 
 EOF
 
-# Arrays de versões
 versions=("0.6.x" "0.7.x")
 
 for version in "${versions[@]}"; do
-    version_path="./$version"  # Caminho relativo ao diretório do repositório no GitHub Actions
+    version_path="./$version"
     if [ -d "$REPO_DIR/$version" ]; then
         for mod in $(ls "$REPO_DIR/$version"); do
             cat <<EOF >> build.yml
