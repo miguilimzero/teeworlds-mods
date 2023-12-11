@@ -5,12 +5,9 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_DIR=$(dirname "$(dirname "$SCRIPT_DIR")")
 
 cat <<EOF > build.yml
-name: Compiling tests
+name: Compiling Tests
 
-on:
-  push:
-    branches:
-      - main
+on: ["push"]
 
 jobs:
   install-dependencies:
