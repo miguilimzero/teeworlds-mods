@@ -26,7 +26,6 @@ jobs:
           bash default-dependencies.sh
 
 EOF
-
 versions=("0.6.x" "0.7.x")
 
 for version in "${versions[@]}"; do
@@ -35,7 +34,7 @@ for version in "${versions[@]}"; do
         for mod in $(ls "$REPO_DIR/$version"); do
             cat <<EOF >> build.yml
   build-${version//./}_$mod:
-    name: Build ${mod}
+    name: Build ${version}/${mod}
     needs: install-dependencies
     runs-on: ubuntu-latest
 
@@ -46,7 +45,7 @@ for version in "${versions[@]}"; do
       - name: Build ${mod}
         run: |
           cd "$version_path/$mod"
-          bash compile.sh
+          bash -e compile.sh
 
 EOF
         done
