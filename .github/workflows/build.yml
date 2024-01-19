@@ -1,6 +1,6 @@
-name: Compiling tests
+name: Compiling Tests
 
-on: ["push", "pull_request"]
+on: ["push"]
 
 jobs:
   install-dependencies:
@@ -16,7 +16,7 @@ jobs:
           bash default-dependencies.sh
 
   build-06x_bomb-tag:
-    name: Build bomb-tag
+    name: Build 0.6.x/bomb-tag
     needs: install-dependencies
     runs-on: ubuntu-latest
 
@@ -27,10 +27,10 @@ jobs:
       - name: Build bomb-tag
         run: |
           cd "./0.6.x/bomb-tag"
-          bash compile.sh
+          bash -e compile.sh
 
   build-06x_ddnet:
-    name: Build ddnet
+    name: Build 0.6.x/ddnet
     needs: install-dependencies
     runs-on: ubuntu-latest
 
@@ -41,10 +41,10 @@ jobs:
       - name: Build ddnet
         run: |
           cd "./0.6.x/ddnet"
-          bash compile.sh
+          bash -e compile.sh
 
   build-06x_flagball:
-    name: Build flagball
+    name: Build 0.6.x/flagball
     needs: install-dependencies
     runs-on: ubuntu-latest
 
@@ -55,10 +55,10 @@ jobs:
       - name: Build flagball
         run: |
           cd "./0.6.x/flagball"
-          bash compile.sh
+          bash -e compile.sh
 
   build-06x_football:
-    name: Build football
+    name: Build 0.6.x/football
     needs: install-dependencies
     runs-on: ubuntu-latest
 
@@ -69,10 +69,10 @@ jobs:
       - name: Build football
         run: |
           cd "./0.6.x/football"
-          bash compile.sh
+          bash -e compile.sh
 
   build-06x_hmh-monster:
-    name: Build hmh-monster
+    name: Build 0.6.x/hmh-monster
     needs: install-dependencies
     runs-on: ubuntu-latest
 
@@ -83,10 +83,10 @@ jobs:
       - name: Build hmh-monster
         run: |
           cd "./0.6.x/hmh-monster"
-          bash compile.sh
+          bash -e compile.sh
 
   build-06x_hunter:
-    name: Build hunter
+    name: Build 0.6.x/hunter
     needs: install-dependencies
     runs-on: ubuntu-latest
 
@@ -97,10 +97,10 @@ jobs:
       - name: Build hunter
         run: |
           cd "./0.6.x/hunter"
-          bash compile.sh
+          bash -e compile.sh
 
   build-06x_infclass:
-    name: Build infclass
+    name: Build 0.6.x/infclass
     needs: install-dependencies
     runs-on: ubuntu-latest
 
@@ -111,10 +111,10 @@ jobs:
       - name: Build infclass
         run: |
           cd "./0.6.x/infclass"
-          bash compile.sh
+          bash -e compile.sh
 
   build-06x_killing-floor:
-    name: Build killing-floor
+    name: Build 0.6.x/killing-floor
     needs: install-dependencies
     runs-on: ubuntu-latest
 
@@ -125,10 +125,10 @@ jobs:
       - name: Build killing-floor
         run: |
           cd "./0.6.x/killing-floor"
-          bash compile.sh
+          bash -e compile.sh
 
   build-06x_mmotee:
-    name: Build mmotee
+    name: Build 0.6.x/mmotee
     needs: install-dependencies
     runs-on: ubuntu-latest
 
@@ -139,10 +139,10 @@ jobs:
       - name: Build mmotee
         run: |
           cd "./0.6.x/mmotee"
-          bash compile.sh
+          bash -e compile.sh
 
   build-06x_streak:
-    name: Build streak
+    name: Build 0.6.x/streak
     needs: install-dependencies
     runs-on: ubuntu-latest
 
@@ -153,10 +153,10 @@ jobs:
       - name: Build streak
         run: |
           cd "./0.6.x/streak"
-          bash compile.sh
+          bash -e compile.sh
 
   build-06x_teesmash:
-    name: Build teesmash
+    name: Build 0.6.x/teesmash
     needs: install-dependencies
     runs-on: ubuntu-latest
 
@@ -167,10 +167,10 @@ jobs:
       - name: Build teesmash
         run: |
           cd "./0.6.x/teesmash"
-          bash compile.sh
+          bash -e compile.sh
 
   build-06x_teeware:
-    name: Build teeware
+    name: Build 0.6.x/teeware
     needs: install-dependencies
     runs-on: ubuntu-latest
 
@@ -181,10 +181,10 @@ jobs:
       - name: Build teeware
         run: |
           cd "./0.6.x/teeware"
-          bash compile.sh
+          bash -e compile.sh
 
   build-06x_zcatch:
-    name: Build zcatch
+    name: Build 0.6.x/zcatch
     needs: install-dependencies
     runs-on: ubuntu-latest
 
@@ -195,10 +195,10 @@ jobs:
       - name: Build zcatch
         run: |
           cd "./0.6.x/zcatch"
-          bash compile.sh
+          bash -e compile.sh
 
   build-06x_zombpanic:
-    name: Build zombpanic
+    name: Build 0.6.x/zombpanic
     needs: install-dependencies
     runs-on: ubuntu-latest
 
@@ -209,10 +209,10 @@ jobs:
       - name: Build zombpanic
         run: |
           cd "./0.6.x/zombpanic"
-          bash compile.sh
+          bash -e compile.sh
 
   build-07x_mmotee:
-    name: Build mmotee
+    name: Build 0.7.x/mmotee
     needs: install-dependencies
     runs-on: ubuntu-latest
 
@@ -223,10 +223,10 @@ jobs:
       - name: Build mmotee
         run: |
           cd "./0.7.x/mmotee"
-          bash compile.sh
+          bash -e compile.sh
 
   build-07x_nodes:
-    name: Build nodes
+    name: Build 0.7.x/nodes
     needs: install-dependencies
     runs-on: ubuntu-latest
 
@@ -237,5 +237,5 @@ jobs:
       - name: Build nodes
         run: |
           cd "./0.7.x/nodes"
-          bash compile.sh
+          bash -e compile.sh
 
