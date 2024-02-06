@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Clone Repository
-git clone https://github.com/InfectionDust/teeworlds-infclassr
+git clone https://github.com/infclass/teeworlds-infclassr
 cd teeworlds-infclassr
 
 # Compile Mod

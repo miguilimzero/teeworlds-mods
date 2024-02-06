@@ -15,6 +15,7 @@ This repository aims to have a complete listing of relevant content and mods fro
     - [Compiling For 0.7.x](#compiling-for-07x)
 - [Custom Clients](#custom-clients)
 - [Wiki And Blogs](#wiki-and-blogs)
+- [Development Tools](#development-tools)
 - [Other Resources](#other-resources)
 
 ## Supported Mods
@@ -26,7 +27,7 @@ This list contains the mods that have easy compiling scripts or binaries. The li
 | Name | Website| Source | Forum Post | Version | Client |
 |---------|---------|---------|---------|---------|---------|
 | **DDNet** |  [Website](https://ddnet.tw/) | [Source](https://github.com/ddnet/ddnet) |  ------------------- | 0.6.x |
-| **InfClass** | -------------------  | [Source](https://github.com/InfectionDust/teeworlds-infclassr) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12532) | 0.6.x | [Custom Client](https://github.com/infclass/infclass-client) |
+| **InfClass** | -------------------  | [Source](https://github.com/infclass/teeworlds-infclassr) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12532) | 0.6.x | [Custom Client](https://github.com/infclass/infclass-client) |
 | **MMOTee** |  ------------------- | [Source](https://github.com/kurosio/Teeworlds-MRPG-0.6) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12612) | 0.6.x |
 | **ZombPanic** | ------------------- | [Source](https://github.com/teemods/zombpanic) |  ------------------- | 0.6.x |
 | **OpenGores** | ------------------- | [Source](https://github.com/teemods/opengores) |  ------------------- | 0.6.x |
@@ -100,6 +101,9 @@ wget https://raw.githubusercontent.com/miguilimzero/teeworlds-mods/main/0.7.x/MO
 
 
 ## Wiki And Blogs
+
+
+## Development Tools
 
 
 ## Other Resources
