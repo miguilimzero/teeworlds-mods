@@ -16,11 +16,11 @@ This repository contains scripts to build server binaries and binaries for mods 
 | **DDNet** |  [Website](https://ddnet.tw/) | [Source](https://github.com/ddnet/ddnet) |  ------------------- | ✔ | 0.6.x |
 | **InfClass** | -------------------  | [Source](https://github.com/InfectionDust/teeworlds-infclassr) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12532) | ✔ | 0.6.x |
 | **MMOTee** |  ------------------- | [Source](https://github.com/kurosio/Teeworlds-Mmotee-Old) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12612) | ✔ | 0.6.x |
-| **ZombPanic** | ------------------- | [Source](https://github.com/teeframe/zombpanic) |  ------------------- | ✔ | 0.6.x |
+| **ZombPanic** | ------------------- | [Source](https://github.com/miguilimzero/zombpanic) |  ------------------- | ✔ | 0.6.x |
 | **Bomb Tag** | ------------------- | [Source](https://github.com/unique-clan/bomb) | ------------------- | ✕ | 0.6.x |
-| **Flagball** | ------------------- | [Source](https://github.com/teeframe/flagball) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12899) | ✕ | 0.6.x |
+| **Flagball** | ------------------- | [Source](https://github.com/miguilimzero/flagball) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12899) | ✕ | 0.6.x |
 | **Football** | ------------------- | [Source](https://github.com/unique-clan/football) | ------------------- | ✕ | 0.6.x |
-| **HMH-Monster** | ------------------- | [Source](https://github.com/teeframe/hmh-monster) | ------------------- | ✕ | 0.6.x |
+| **HMH-Monster** | ------------------- | [Source](https://github.com/miguilimzero/hmh-monster) | ------------------- | ✕ | 0.6.x |
 | **Hunter** | ------------------- | [Source](https://github.com/yangfl/teeworlds-hunter) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=10408) | ✕ | 0.6.x |
 | **Killing Floor** | ------------------- | [Source](https://github.com/Siile/KillingFloor) | ------------------- | ✕ | 0.6.x |
 | **TeeSmash** | ------------------- | [Source](https://github.com/timazuki/TeeSmash) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=11878) | ✕ | 0.6.x |
@@ -48,7 +48,7 @@ For these mods, there are binaries that were published by their creators without
 First you must install the necessary dependencies on your system. You can run this script to install the necessary dependencies for compiling the mods (Scripts are made assuming you are running **Ubuntu 20.04**).
 
 ```
-wget https://raw.githubusercontent.com/teeframe/mods-repository/main/resources/default-dependencies.sh  -O - | sh
+wget https://raw.githubusercontent.com/miguilimzero/teeworlds-mods/main/resources/default-dependencies.sh  -O - | sh
 ```
 
 ## Compiling Mods (Teeworlds 0.6.x)
@@ -56,7 +56,7 @@ wget https://raw.githubusercontent.com/teeframe/mods-repository/main/resources/d
 Now you just need to execute the compile script for your desired mod:
 
 ```
-wget https://raw.githubusercontent.com/teeframe/mods-repository/main/0.6.x/MOD_FOLDER_NAME/compile.sh  -O - | sh
+wget https://raw.githubusercontent.com/miguilimzero/teeworlds-mods/main/0.6.x/MOD_FOLDER_NAME/compile.sh  -O - | sh
 ```
 
 ## Compiling Mods (Teeworlds 0.7.x)
@@ -64,5 +64,5 @@ wget https://raw.githubusercontent.com/teeframe/mods-repository/main/0.6.x/MOD_F
 Now you just need to execute the compile script for your desired mod:
 
 ```
-wget https://raw.githubusercontent.com/teeframe/mods-repository/main/0.7.x/MOD_FOLDER_NAME/compile.sh  -O - | sh
+wget https://raw.githubusercontent.com/miguilimzero/teeworlds-mods/main/0.7.x/MOD_FOLDER_NAME/compile.sh  -O - | sh
 ```

@@ -5,7 +5,7 @@ git clone https://github.com/yangfl/teeworlds-hunter
 cd teeworlds-hunter
 
 # Download Bam Binary
-wget https://raw.githubusercontent.com/teeframe/mods-repository/main/resources/bam
+wget https://raw.githubusercontent.com/miguilimzero/teeworlds-mods/main/resources/bam
 chmod 764 bam
 
 # Compile Mod

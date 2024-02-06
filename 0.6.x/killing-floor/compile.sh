@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Clone Repository
-git clone https://github.com/teeframe/killing-floor
+git clone https://github.com/miguilimzero/killing-floor
 cd killing-floor
 
 # Download Bam Binary
-wget https://raw.githubusercontent.com/teeframe/mods-repository/main/resources/bam
+wget https://raw.githubusercontent.com/miguilimzero/teeworlds-mods/main/resources/bam
 chmod 764 bam
 
 # Compile Mod

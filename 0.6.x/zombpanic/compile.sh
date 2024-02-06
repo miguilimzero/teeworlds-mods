@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Clone Repository
-git clone https://github.com/teeframe/zombpanic --recurse-submodules
+git clone https://github.com/teemods/zombpanic --recurse-submodules
 cd zombpanic
 
 # Compile Mod
