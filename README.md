@@ -4,6 +4,7 @@ This repository aims to have a complete listing of relevant content and mods fro
 
 ## Summary
 
+- [Custom Clients](#custom-clients)
 - [Supported Mods](#supported-mods)
     - [Maintained Mods](#maintained-mods)
     - [Archived Mods](#archived-mods)
@@ -13,9 +14,11 @@ This repository aims to have a complete listing of relevant content and mods fro
     - [Compiling For 0.6.x](#compiling-for-06x)
     - [Compiling For 0.7.x](#compiling-for-07x)
 
+## Custom Clients
+
 ## Supported Mods
 
-This is a list of mods that are currently supported by this repository. The mods are divided into three categories: Maintained Mods, Archived Mods, and Binary Mods.
+This is a list of mods that have easy compiling scripts or binaries. The list is divided into maintained, archived, and binary mods.
 
 ### Maintained Mods
 
@@ -24,7 +27,7 @@ This is a list of mods that are currently supported by this repository. The mods
 | **DDNet** |  [Website](https://ddnet.tw/) | [Source](https://github.com/ddnet/ddnet) |  ------------------- | 0.6.x |
 | **InfClass** | -------------------  | [Source](https://github.com/InfectionDust/teeworlds-infclassr) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12532) | 0.6.x |
 | **MMOTee** |  ------------------- | [Source](https://github.com/kurosio/Teeworlds-Mmotee-Old) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12612) | 0.6.x |
-| **ZombPanic** | ------------------- | [Source](https://github.com/miguilimzero/zombpanic) |  ------------------- | 0.6.x |
+| **ZombPanic** | ------------------- | [Source](https://github.com/miguilimzero/zombpanic) |  ------------------- | 0.6.x | [Custom Client](https://github.com/infclass/infclass-client) |
 
 ### Archived Mods
 
@@ -38,11 +41,11 @@ This is a list of mods that are currently supported by this repository. The mods
 | **Killing Floor** | ------------------- | [Source](https://github.com/Siile/KillingFloor) | ------------------- | 0.6.x |
 | **TeeSmash** | ------------------- | [Source](https://github.com/timazuki/TeeSmash) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=11878) | 0.6.x |
 | **TeeWare** | ------------------- | [Source](https://github.com/headshot2017/teeware-mod) | ------------------- | 0.6.x |
+| **Streak** | ------------------- | [Source](https://github.com/miukmiuk/teeworlds_streak) | ------------------- | 0.6.x |
 | **zCatch** | ------------------- | [Source](https://github.com/ddnet/zcatch) | ------------------- | 0.6.x |
 | **CStrike** | ------------------- | [Source](https://github.com/ST-Chara/teeworlds-CStrike) | ------------------- | 0.7.x |
-| **Streak** | ------------------- | [Source](https://github.com/miukmiuk/teeworlds_streak) | ------------------- | 0.6.x |
 | **MMOTee** | ------------------- | [Source](https://github.com/MrCosmo666/Teeworlds-MRPG) | ------------------- | 0.7.x |[Custom Client](https://github.com/MrCosmo666/Teeworlds-MRPG) |
-| **Nodes** | [Website](https://nodes.teeworlds.dev/) |[Source](https://github.com/teeworldsnetwork/nodes) | ------------------- | 0.7.x |[Custom Client](https://nodes.teeworlds.dev/downloads)|
+| **Nodes** | [Website](https://nodes.teeworlds.dev/) |[Source](https://github.com/teeworldsnetwork/nodes) | ------------------- | 0.7.x |*[Custom Client](https://nodes.teeworlds.dev/downloads) |
 
 * *Mandatory Client
 
@@ -56,7 +59,11 @@ For these mods, there are binaries that were published by their creators without
 | **zChaos** | ------------------- | ------------------- | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=9682) | 0.6.x |  
 | **LumLvl** | ------------------- | ------------------- |[Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12849) | 0.7.x | 
 
-## Installing Dependencies
+## Compiling Mods
+
+
+
+### Installing Dependencies
 
 First you must install the necessary dependencies on your system. You can run this script to install the necessary dependencies for compiling the mods.
 
@@ -66,7 +73,7 @@ First you must install the necessary dependencies on your system. You can run th
 wget https://raw.githubusercontent.com/miguilimzero/teeworlds-mods/main/resources/default-dependencies.sh  -O - | sh
 ```
 
-## Compiling For 0.6.x
+### Compiling For 0.6.x
 
 Now you just need to execute the compile script for your desired mod:
 
@@ -74,7 +81,7 @@ Now you just need to execute the compile script for your desired mod:
 wget https://raw.githubusercontent.com/miguilimzero/teeworlds-mods/main/0.6.x/MOD_FOLDER_NAME/compile.sh  -O - | sh
 ```
 
-## Compiling For 0.7.x
+### Compiling For 0.7.x
 
 Now you just need to execute the compile script for your desired mod:
 
