@@ -4,30 +4,32 @@ This repository aims to have a complete listing of relevant content and mods fro
 
 ## Summary
 
-- [Custom Clients](#custom-clients)
 - [Supported Mods](#supported-mods)
     - [Maintained Mods](#maintained-mods)
     - [Archived Mods](#archived-mods)
     - [Binary Mods](#binary-mods)
+- [Un-Supported Mods](#un-supported-mods)
 - [Compiling Mods](#compiling-mods)
     - [Installing Dependencies](#installing-dependencies)
     - [Compiling For 0.6.x](#compiling-for-06x)
     - [Compiling For 0.7.x](#compiling-for-07x)
-
-## Custom Clients
+- [Custom Clients](#custom-clients)
+- [Wiki And Blogs](#wiki-and-blogs)
+- [Other Resources](#other-resources)
 
 ## Supported Mods
 
-This is a list of mods that have easy compiling scripts or binaries. The list is divided into maintained, archived, and binary mods.
+This list contains the mods that have easy compiling scripts or binaries. The list is divided into maintained, archived, and binary mods.
 
 ### Maintained Mods
 
 | Name | Website| Source | Forum Post | Version | Client |
 |---------|---------|---------|---------|---------|---------|
 | **DDNet** |  [Website](https://ddnet.tw/) | [Source](https://github.com/ddnet/ddnet) |  ------------------- | 0.6.x |
-| **InfClass** | -------------------  | [Source](https://github.com/InfectionDust/teeworlds-infclassr) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12532) | 0.6.x |
-| **MMOTee** |  ------------------- | [Source](https://github.com/kurosio/Teeworlds-Mmotee-Old) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12612) | 0.6.x |
-| **ZombPanic** | ------------------- | [Source](https://github.com/miguilimzero/zombpanic) |  ------------------- | 0.6.x | [Custom Client](https://github.com/infclass/infclass-client) |
+| **InfClass** | -------------------  | [Source](https://github.com/InfectionDust/teeworlds-infclassr) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12532) | 0.6.x | [Custom Client](https://github.com/infclass/infclass-client) |
+| **MMOTee** |  ------------------- | [Source](https://github.com/kurosio/Teeworlds-MRPG-0.6) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12612) | 0.6.x |
+| **ZombPanic** | ------------------- | [Source](https://github.com/teemods/zombpanic) |  ------------------- | 0.6.x |
+| **OpenGores** | ------------------- | [Source](https://github.com/teemods/opengores) |  ------------------- | 0.6.x |
 
 ### Archived Mods
 
@@ -59,6 +61,10 @@ For these mods, there are binaries that were published by their creators without
 | **zChaos** | ------------------- | ------------------- | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=9682) | 0.6.x |  
 | **LumLvl** | ------------------- | ------------------- |[Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12849) | 0.7.x | 
 
+## Un-Supported Mods
+
+
+
 ## Compiling Mods
 
 
@@ -88,3 +94,12 @@ Now you just need to execute the compile script for your desired mod:
 ```sh
 wget https://raw.githubusercontent.com/miguilimzero/teeworlds-mods/main/0.7.x/MOD_FOLDER_NAME/compile.sh  -O - | sh
 ```
+
+
+## Custom Clients
+
+
+## Wiki And Blogs
+
+
+## Other Resources
