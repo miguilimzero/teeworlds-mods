@@ -19,8 +19,8 @@ This is a list of mods that are currently supported by this repository. The mods
 
 ### Maintained Mods
 
-| Name | Website| Source | Forum Post | Version  | Client |
-|---------|---------|---------|---------|---------|---------|---------|
+| Name | Website| Source | Forum Post | Version | Client |
+|---------|---------|---------|---------|---------|---------|
 | **DDNet** |  [Website](https://ddnet.tw/) | [Source](https://github.com/ddnet/ddnet) |  ------------------- | 0.6.x |
 | **InfClass** | -------------------  | [Source](https://github.com/InfectionDust/teeworlds-infclassr) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12532) | 0.6.x |
 | **MMOTee** |  ------------------- | [Source](https://github.com/kurosio/Teeworlds-Mmotee-Old) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12612) | 0.6.x |
@@ -28,8 +28,8 @@ This is a list of mods that are currently supported by this repository. The mods
 
 ### Archived Mods
 
-| Name | Website| Source | Forum Post | Version  | Client |
-|---------|---------|---------|---------|---------|---------|---------|
+| Name | Website| Source | Forum Post | Version | Client |
+|---------|---------|---------|---------|---------|---------|
 | **Bomb Tag** | ------------------- | [Source](https://github.com/unique-clan/bomb) | ------------------- | 0.6.x |
 | **Flagball** | ------------------- | [Source](https://github.com/miguilimzero/flagball) | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12899) | 0.6.x |
 | **Football** | ------------------- | [Source](https://github.com/unique-clan/football) | ------------------- | 0.6.x |
@@ -51,7 +51,7 @@ This is a list of mods that are currently supported by this repository. The mods
 For these mods, there are binaries that were published by their creators without the source. You can download them directly from this repository.
 
 | Name | Website| Source | Forum Post | Version  | Client |
-|---------|---------|---------|---------|---------|---------|---------|
+|---------|---------|---------|---------|---------|---------|
 | **Battlefield** | ------------------- | ------------------- | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=9178) | 0.6.x | 
 | **zChaos** | ------------------- | ------------------- | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=9682) | 0.6.x |  
 | **LumLvl** | ------------------- | ------------------- |[Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12849) | 0.7.x | 
