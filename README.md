@@ -1,6 +1,6 @@
 # Teeworlds Mods
 
-This repository aims to have a complete listing of relevant content and mods from the Teeworlds Ecosystem. It contains scripts to build server binaries for multiple mods. For archived and binary mods, it also contains maps and assets that may be necessary for the mod to work.
+This repository aims to have a complete listing of mods from the Teeworlds Ecosystem. It contains scripts to build server binaries for multiple mods. For archived and binary mods, it also contains maps and assets that may be necessary for the mod to work.
 
 ## Summary
 
@@ -8,15 +8,11 @@ This repository aims to have a complete listing of relevant content and mods fro
     - [Maintained Mods](#maintained-mods)
     - [Archived Mods](#archived-mods)
     - [Binary Mods](#binary-mods)
-- [Un-Supported Mods](#un-supported-mods)
+- [Un-supported Mods](#un-supported-mods)
 - [Compiling Mods](#compiling-mods)
     - [Installing Dependencies](#installing-dependencies)
-    - [Compiling For 0.6.x](#compiling-for-06x)
-    - [Compiling For 0.7.x](#compiling-for-07x)
-- [Custom Clients](#custom-clients)
-- [Wiki And Blogs](#wiki-and-blogs)
-- [Development Tools](#development-tools)
-- [Other Resources](#other-resources)
+    - [Compiling 0.6.x Mods](#compiling-06x-mods)
+    - [Compiling 0.7.x Mods](#compiling-07x-mods)
 
 ## Supported Mods
 
@@ -50,7 +46,7 @@ This list contains the mods that have easy compiling scripts or binaries. The li
 | **MMOTee** | ------------------- | [Source](https://github.com/MrCosmo666/Teeworlds-MRPG) | ------------------- | 0.7.x |[Custom Client](https://github.com/MrCosmo666/Teeworlds-MRPG) |
 | **Nodes** | [Website](https://nodes.teeworlds.dev/) |[Source](https://github.com/teeworldsnetwork/nodes) | ------------------- | 0.7.x |*[Custom Client](https://nodes.teeworlds.dev/downloads) |
 
-* *Mandatory Client
+> *Mandatory Client
 
 ### Binary Mods
 
@@ -62,7 +58,7 @@ For these mods, there are binaries that were published by their creators without
 | **zChaos** | ------------------- | ------------------- | [Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=9682) | 0.6.x |  
 | **LumLvl** | ------------------- | ------------------- |[Forum Post](https://www.teeworlds.com/forum/viewtopic.php?id=12849) | 0.7.x | 
 
-## Un-Supported Mods
+## Un-supported Mods
 
 
 
@@ -80,7 +76,7 @@ First you must install the necessary dependencies on your system. You can run th
 wget https://raw.githubusercontent.com/miguilimzero/teeworlds-mods/main/resources/default-dependencies.sh  -O - | sh
 ```
 
-### Compiling For 0.6.x
+### Compiling 0.6.x Mods
 
 Now you just need to execute the compile script for your desired mod:
 
@@ -88,22 +84,10 @@ Now you just need to execute the compile script for your desired mod:
 wget https://raw.githubusercontent.com/miguilimzero/teeworlds-mods/main/0.6.x/MOD_FOLDER_NAME/compile.sh  -O - | sh
 ```
 
-### Compiling For 0.7.x
+### Compiling 0.7.x Mods
 
 Now you just need to execute the compile script for your desired mod:
 
 ```sh
 wget https://raw.githubusercontent.com/miguilimzero/teeworlds-mods/main/0.7.x/MOD_FOLDER_NAME/compile.sh  -O - | sh
 ```
-
-
-## Custom Clients
-
-
-## Wiki And Blogs
-
-
-## Development Tools
-
-
-## Other Resources
